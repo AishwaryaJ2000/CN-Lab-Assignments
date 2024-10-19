@@ -1,0 +1,83 @@
+1.   4 part framing (frame.html)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>header footer</title>
+</head>
+
+<style>
+     html,body{
+        width: 98%;
+        height:98%;
+</style>       
+
+<body>
+
+ <iframe src="head.html" frameborder:"1"                            style="height: 23%;
+          width:100%;">
+</iframe>
+
+ 
+ <iframe src="side1.html"      frameborder:"1"                            style="height: 50%;
+       width:23%; 
+      float: left; ">
+</iframe>
+
+
+ <iframe src="side2.html" frameborder:"1"                              style="height: 50%;
+            width: 74%; 
+            float: right; " >
+</iframe>
+ 
+
+<iframe src="footer.html"   frameborder:"1"                             style="height: 23%;
+           width: 100%; " >
+</iframe>
+
+</body>
+</html>
+
+
+2.head.html
+
+<html>
+<body>
+  <h1>
+    This is a header.
+  </h1>
+</body>
+</html>
+
+
+3.side1.html
+
+<html>
+<body>
+  <h3>
+     see right box for some more information.
+  </h3>
+</body>
+</html>
+
+
+4.side2.html
+
+<html>
+<body>
+  <h3>
+     Here is some information.
+  </h3>
+</body>
+</html>
+
+
+5.footer.html
+
+<html>
+<body>
+  <h1>
+    This is footer.
+  </h1>
+</body>
+</html>
